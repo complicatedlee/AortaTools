@@ -1,0 +1,69 @@
+# project folders
+project/
+x64/
+
+# build folders
+*build*/
+
+# folder to ignore
+/bin
+/lib
+/tmp
+/dist
+/*.egg-info
+/md/lib
+.eggs
+/AortaTools/cmake/*.cmake
+/AortaTools/cuda_image/test_data
+
+# temporary files
+*~
+
+# Mac system files
+.DS_Store
+
+# CMakeLists.txt.user
+CMakeLists.txt.user
+CMakeLists.txt.user*
+
+# pycharm and vscode project files
+.idea/
+.vscode/
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+*.pyc
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Unit testing output files
+/utils/python/test_data/*.html
+
+# Unit large testing files
+
+AortaTools/visualization/*.bmp
