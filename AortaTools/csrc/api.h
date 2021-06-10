@@ -8,7 +8,7 @@
 *  \param results          Aortic analysis results structure pointer (function allocated memory)
 *  \return                 ERROR CODE
 */
-int AortaSystemAnalyze(void* mask, void* results);
+int AortaSystemAnalyze(void* mask, void** results);
 
 /*! \brief  Pointer release function for aorta mask
 *
@@ -26,8 +26,9 @@ int AortaSystemReleaseResult(void* result);
 
 ///////////////////////////////////////////////////////////////////////////////////////////////
 // Refer the diameter/volume/length of aorta API
-double GetAortaDiameter(void* result, double* aorta_diameters);
-double GetAortaVolume(void* result, double* aorta_volumes);
-double GetAortaLength(void* result, double* aorta_lengths);
+void GetAortaDiameter(void* result, double* aorta_diameters);
+void GetAortaVolume(void* result, double* aorta_volumes);
+void GetAortaLength(void* result, double* aorta_lengths);
+
 
 #endif 

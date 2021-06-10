@@ -11,7 +11,7 @@ x64/
 /tmp
 /dist
 /*.egg-info
-/md/lib
+/AortaTools/lib
 .eggs
 /AortaTools/cmake/*.cmake
 /AortaTools/cuda_image/test_data
