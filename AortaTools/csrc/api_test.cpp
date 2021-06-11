@@ -18,7 +18,6 @@ int main()
 		std::cerr << "fail to read image from " << mask_path << std::endl;
 		return -1;
 	}
-	mask.cast(PT_SHORT);
 
 
 	void* result = nullptr;

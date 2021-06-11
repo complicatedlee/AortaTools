@@ -55,9 +55,6 @@ public:
 	/*! \brief constructor */
 	AortaParameters();
 
-	/*! \brief constructor */
-	AortaParameters(void* mask);
-
 	/*! \brief destructor */
 	~AortaParameters();
 
